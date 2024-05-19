@@ -1,8 +1,8 @@
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
 # Bot token and channel ID
-BOT_TOKEN = "YOUR_BOT_TOKEN"
-CHANNEL_ID = "YOUR_CHANNEL_ID"
+BOT_TOKEN = 6873178912:AAFqoC8bvcHnE873pKUjUzHiM7KrrNwsyjg
+CHANNEL_ID = -1002117137011
 
 def start(update, context):
     update.message.reply_text("Hello! I'm your anonymous message forwarder bot.")
